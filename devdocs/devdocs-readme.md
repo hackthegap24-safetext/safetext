@@ -8,7 +8,7 @@ This directory `./devdocs`, is for development team documentation, so we can rec
 
 Stuff that goes in here is anything and everything the dev team needs to know about the app.
 
-This isn't an excuse to leave comments in code where they would be of the most use to others.
+This isn't an excuse to omit comments in code where they would be of the most use to others.
 
 ## Info That Is External To Git
 
