@@ -1,0 +1,19 @@
+{
+  "name": "safetext",
+  "version": "0.1.0",
+  "description": "Safely, silently, text for help when you cannot talk",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackthegap24-safetext/safetext.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hackthegap24-safetext/safetext/issues"
+  },
+  "homepage": "https://github.com/hackthegap24-safetext/safetext#readme"
+}
