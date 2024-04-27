@@ -4,7 +4,13 @@ Safely, silently, engage with authorities when you are in a dangerous situation 
 
 ## Introduction
 
+This started life as a demo application for the Hack-the-Gap 2024 April hackathon.
+
+This README is primarily for folks who are working on the app.
+
 ## Prerequisites
+
+There should be no software to install first. This is a web page, using vanilla code.
 
 ## Installation
 
@@ -32,5 +38,3 @@ General project documentation, i.e., for developers and others producing the app
 ### Internals
 
 ## Contributors
-
-
