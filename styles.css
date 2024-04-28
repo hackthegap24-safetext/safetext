@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+
+.sideBySide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+/* .sideBySide.beforePush {} */
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.visible {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+#leftSide {
+  background-color: aliceblue;
+}
+
+#rightSide {
+  background-color: blanchedalmond;
+}
