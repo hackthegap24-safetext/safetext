@@ -37,6 +37,19 @@ const App = (() => {
     chatDialog.classList.add('visible')
   }
 
+  const showUserScreen = () => {
+    // get the dialog element
+    // create a new text node "hello there!"
+    // insert the node in the dialog
+    // call setTimeout with the showDispatchScreen
+  }
+
+  const showDispatchScreen = () => {
+    // get the dispatch dialog element
+    // create the user message for "Hello there!"
+    // insert the user's mnessager node into the dialog
+    // call setTimeout with nextUserMessage
+  }
 
   return {
     start
