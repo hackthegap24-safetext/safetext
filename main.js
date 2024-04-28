@@ -24,6 +24,7 @@ const App = (() => {
     rightSide.classList.add('visible')
     removePushMeBtn()
     showChatDialog()
+    showUserScreen()
   }
 
   const removePushMeBtn = () => {
@@ -44,17 +45,18 @@ const App = (() => {
     // get the chat message input element
     const chatMessage = document.getElementById("chat-message");
 
-    // create a new text node "hello there!"
-    let textNode = document.createTextNode("Hello!");
-    
+    // get the chat message input element
+    const userMessage1 = document.getElementById("usrMsg1");
+
     // insert text into chat-message area
-    chatMessage.value = "test";
-
-    // insert the node in the dialog
-    chatDialog.append(textNode );
-
-    // call setTimeout with the showDispatchScreen
-    setTimeout(showDispatchScreen, 2000)
+    const usr_msg_1_text = ":white_heart: Happy hour today?"
+    setTimeout(() => {
+      chatMessage.value = usr_msg_1_text
+      setTimeout(() => {
+        userMessage1.innerText = usr_msg_1_text
+        setTimeout(showDispatchScreen, 2000)
+      }, 2000)
+    }, 3000)
   }
 
   const showDispatchScreen = () => {
@@ -62,6 +64,7 @@ const App = (() => {
     // create the user message for "Hello there!"
     // insert the user's mnessager node into the dialog
     // call setTimeout with nextUserMessage
+    console.log('sshow dispatch screen')
   }
 
   return {
