@@ -61,3 +61,15 @@ body {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+
+.max-20 img {
+  max-height: 20px;
+}
+
+.chat-bubble--left {
+  text-align: left;
+}
+
+.chat-bubble--right {
+  text-align: right;
+}
