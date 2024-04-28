@@ -92,3 +92,29 @@ body {
 input#chat-message {
   margin: 0 10px;
 }
+
+#user-info {
+  width: 65%;
+}
+
+#user-info th {
+  width: 30%;
+}
+
+#user-info #td {
+  width: 70%;
+}
+
+#user-info th,
+#user-info #td {
+  vertical-align: top;
+}
+
+#user-info td img {
+  width: 200px;
+  height: 200px;
+}
+
+#dispatch-dialog {
+  width: 65%;
+}
