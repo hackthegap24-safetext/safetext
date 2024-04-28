@@ -15,7 +15,7 @@
 
 <body>
   <div class="sideBySide beforePush">
-    <div id="leftSide" class="flexColumn visible">
+    <div id="victimSide" class="flexColumn visible">
       <h1>User Screen</h1>
       <button id="pushMe">Push me</button>
       <div id="chatDialog" class="hidden">
@@ -24,53 +24,25 @@
             <h1 class="centered max-20"><img src="./images/avatar.jpg" alt=""></h1>
             <h1 class="text-muted centered ">❤️Susie</h1>
           </div>
-          <div class="chat-panel">
-            <div class="user-message row no-gutters">
-              <div class="col-md-9 offset-md-3">
-                <div id="usrMsg1" class="chat-bubble chat-bubble--right">
-                </div>
-              </div>
-            </div>
-            <div class="dispatcher-messagse row no-gutters">
-              <div class="col-md-9">
-                <div class="chat-bubble chat-bubble--left">
-                </div>
-              </div>
-            </div>
-            <div class="user-message row no-gutters">
-              <div class="col-md-9 offset-md-3">
-                <div class="chat-bubble chat-bubble--right">
-                </div>
-              </div>
-            </div>
-            <div class="dispatcher-messagse row no-gutters">
-              <div class="col-md-9">
-                <div class="chat-bubble chat-bubble--left">
-                </div>
-              </div>
-            </div>
-            <div class="user-message row no-gutters">
-              <div class="col-md-9 offset-md-3">
-                <div class="chat-bubble chat-bubble--right">
-                </div>
-              </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-12">
-                <div class="chat-box-tray">
-                  <i class="material-icons">sentiment_very_satisfied</i>
-                  <input id="chat-message" type="text" placeholder="Type your message here...">
-                  <i class="material-icons">mic</i>
-                  <i class="material-icons">send</i>
-                </div>
+          <hr>
+          <div id="chat-panel"></div>
+          <hr>
+          <div class="row">
+            <div class="col-12">
+              <div class="chat-box-tray">
+                <i class="material-icons">sentiment_very_satisfied</i>
+                <input id="chat-message" type="text" placeholder="Type your message here...">
+                <i class="material-icons">mic</i>
+                <i class="material-icons">send</i>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+
     </div>
-    <div id="rightSide" class="flexColumn hidden">
+    <div id="dispatcherSide" class="flexColumn hidden">
       <h1>Dispatcher Screen</h1>
       <div id="dispatch-dialog">
         <table id="user-info">
@@ -94,20 +66,7 @@
 
         </table>
         <hr>
-        <div class="chat-panel">
-          <div class="user-message row no-gutters">
-            <div class="col-md-9">
-              <div class="chat-bubble chat-bubble--left">
-                Hello there!
-              </div>
-            </div>
-          </div>
-          <div class="dispatcher-messagse row no-gutters">
-            <div class="col-md-9 offset-md-3">
-              <div class="chat-bubble chat-bubble--right">
-              </div>
-            </div>
-          </div>
+        <div id="chat-panel">
           <div class="user-message row no-gutters">
             <div class="col-md-9">
               <div class="chat-bubble chat-bubble--left">
@@ -126,18 +85,33 @@
               </div>
             </div>
           </div>
-          <hr>
-          <div class="row">
-            <div class="col-12">
-              <div class="chat-box-tray">
-                <i class="material-icons">sentiment_very_satisfied</i>
-                <input id="chat-message" type="text" placeholder="Type your message here...">
-                <i class="material-icons">mic</i>
-                <i class="material-icons">send</i>
+          <div class="dispatcher-messagse row no-gutters">
+            <div class="col-md-9 offset-md-3">
+              <div class="chat-bubble chat-bubble--right">
               </div>
+            </div>
+          </div>
+          <div class="user-message row no-gutters">
+            <div class="col-md-9">
+              <div class="chat-bubble chat-bubble--left">
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-12">
+            <div class="chat-box-tray">
+              <i class="material-icons">sentiment_very_satisfied</i>
+              <input id="chat-message" type="text" placeholder="Type your message here...">
+              <i class="material-icons">mic</i>
+              <i class="material-icons">send</i>
             </div>
           </div>
         </div>
+
       </div>
     </div>
 

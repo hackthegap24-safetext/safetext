@@ -33,11 +33,11 @@ body {
   display: none;
 }
 
-#leftSide {
+#userSide {
   background-color: aliceblue;
 }
 
-#rightSide {
+#victimSide {
   background-color: blanchedalmond;
 }
 
