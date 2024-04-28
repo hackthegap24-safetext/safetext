@@ -10,15 +10,31 @@ const App = (() => {
   const HUMAN_NAME = 'Safe Text'
 
   function start() {
-    document.body.onload = showHumanAndAppNames()
+    document.body.onload = listenForButtonPush()
   }
 
-  const showHumanAndAppNames = () => {
-    const header = document.createElement('h1')
-    header.appendChild(
-      document.createTextNode(`this is ${HUMAN_NAME}`)
-    )
-    document.body.appendChild(header)
+  const listenForButtonPush = () => {
+    const pushMeBtn = document.getElementById('pushMe')
+    pushMeBtn.addEventListener('click', handlePushMe)
+  }
+
+  const handlePushMe = () => {
+    const rightSide = document.getElementById('rightSide')
+    rightSide.classList.remove('hidden')
+    rightSide.classList.add('visible')
+    removePushMeBtn()
+    showChatDialog()
+  }
+
+  const removePushMeBtn = () => {
+    const pushMeBtn = document.getElementById('pushMe')
+    pushMeBtn.remove()
+  }
+
+  const showChatDialog = () => {
+    const chatDialog = document.getElementById('chatDialog')
+    chatDialog.classList.remove('hidden')
+    chatDialog.classList.add('visible')
   }
 
 
