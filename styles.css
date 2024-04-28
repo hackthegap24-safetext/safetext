@@ -40,3 +40,24 @@ body {
 #rightSide {
   background-color: blanchedalmond;
 }
+
+.friend-drawer--grey {
+  background-color: lightgray;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.text-muted {
+  color: grey;
+}
+
+.centered {
+  text-align: center;
+}
+
+#settings-tray {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
