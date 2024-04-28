@@ -52,7 +52,9 @@ const App = (() => {
 
     // insert the node in the dialog
     chatDialog.append(textNode );
+
     // call setTimeout with the showDispatchScreen
+    setTimeout(showDispatchScreen, 2000)
   }
 
   const showDispatchScreen = () => {
