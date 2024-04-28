@@ -39,8 +39,19 @@ const App = (() => {
 
   const showUserScreen = () => {
     // get the dialog element
+    const chatDialog = document.getElementById('chatDialog')
+
+    // get the chat message input element
+    const chatMessage = document.getElementById("chat-message");
+
     // create a new text node "hello there!"
+    let textNode = document.createTextNode("Hello!");
+    
+    // insert text into chat-message area
+    chatMessage.value = "test";
+
     // insert the node in the dialog
+    chatDialog.append(textNode );
     // call setTimeout with the showDispatchScreen
   }
 
